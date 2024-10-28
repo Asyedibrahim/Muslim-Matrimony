@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Disable text selection */
+.no-select {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Standard syntax */
+}
+
+/* Phone Number Form */
+.react-tel-input .form-control{
+    border-radius: 0.375rem;
+    width: 100%;
+}
